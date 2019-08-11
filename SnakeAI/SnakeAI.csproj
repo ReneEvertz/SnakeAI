@@ -48,7 +48,9 @@
   <ItemGroup>
     <Compile Include="Entity.cs" />
     <Compile Include="Enums.cs" />
+    <Compile Include="Extension.cs" />
     <Compile Include="Fruit.cs" />
+    <Compile Include="GameSettings.cs" />
     <Compile Include="GameView.cs">
       <SubType>Form</SubType>
     </Compile>
