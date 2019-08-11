@@ -9,14 +9,14 @@ namespace SnakeAI
 	internal class Snake
 	{
 		public SnakePart Head { get; set; }
-		public SnakePart[] TailParts { get; set; }
+		public List<SnakePart> TailParts { get; set; }
 		public Direction LookingDirection { get; set; }
 
 		public Snake(int x, int y, Direction lookingDirection)
 		{
 			Head = new SnakePart(x, y);
 			LookingDirection = lookingDirection;
-			TailParts = new SnakePart[0];
+			TailParts = new List<SnakePart>();
 		}
 	}
 }
