@@ -49,6 +49,7 @@
     <Compile Include="Entity.cs" />
     <Compile Include="Enums.cs" />
     <Compile Include="Fruit.cs" />
+    <Compile Include="GameController.cs" />
     <Compile Include="GameView.cs">
       <SubType>Form</SubType>
     </Compile>
