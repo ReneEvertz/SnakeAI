@@ -11,6 +11,6 @@ namespace SnakeAI
 		Left = 0,
 		Top = 1,
 		Right = 2,
-		Bottum = 3
+		Bottom = 3
 	}
 }
